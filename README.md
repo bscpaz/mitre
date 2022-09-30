@@ -16,7 +16,9 @@ _"An advanced persistent threat (APT) is a sophisticated, sustained cyberattack 
 #### Disable or Remove Feature or Program
 https://attack.mitre.org/mitigations/M1042/
 
-* https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/disable-psremoting?view=powershell-7.2
-```shell 
-Disable-PSRemoting -Force
-```
+##### PowerShell/WinRM
+
+* If you want to stop and disable the WinRM for security reasons, you can do so in the Services snap-in (type "services" in the start menu), or you can use PowerShell:
+  ```shell 
+  Stop-Service WinRM -PassThruSet-Service WinRM -StartupType Disabled -PassThru
+  ```
