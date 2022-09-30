@@ -15,3 +15,5 @@ _"An advanced persistent threat (APT) is a sophisticated, sustained cyberattack 
 ### Windows
 #### Disable or Remove Feature or Program
 https://attack.mitre.org/mitigations/M1042/
+
+* https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/disable-psremoting?view=powershell-7.2
