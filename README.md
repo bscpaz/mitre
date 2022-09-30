@@ -19,6 +19,13 @@ https://attack.mitre.org/mitigations/M1042/
 ##### PowerShell/WinRM
 
 * If you want to stop and disable the WinRM for security reasons, you can do so in the Services snap-in (type "services" in the start menu), or you can use PowerShell:
+* 
   ```shell 
   Stop-Service WinRM -PassThruSet-Service WinRM -StartupType Disabled -PassThru
   ```
+  
+  * For test:
+  
+  ```shell
+  Test-WSMan localhost
+  ``` 
