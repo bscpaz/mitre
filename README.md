@@ -7,6 +7,10 @@ https://attack.mitre.org/
 
 https://portswigger.net/web-security
 
+https://www.hackthebox.com/
+
+https://tryhackme.com/
+
 https://www.youtube.com/watch?v=FSjOrIHun-A
 
 ## Advanced persistent threat (APT)
