@@ -20,7 +20,7 @@ _"An advanced persistent threat (APT) is a sophisticated, sustained cyberattack 
 #### Disable or Remove Feature or Program
 https://attack.mitre.org/mitigations/M1042/
 
-##### PowerShell/WinRM
+##### Disable PowerShell WinRM
 
 * If you want to stop and disable the WinRM for security reasons, you can do so in the Services snap-in (type "services" in the start menu), or you can use PowerShell:
 
@@ -33,3 +33,7 @@ https://attack.mitre.org/mitigations/M1042/
   ```shell
   Test-WSMan localhost
   ``` 
+#### Enable Attack Surface Reduction (ASR)
+
+* [Overview-attack-surface-reduction](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction?view=o365-worldwide)
+  * [Microsoft-defender-application-guard](https://learn.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-application-guard/install-md-app-guard)
