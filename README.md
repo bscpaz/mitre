@@ -13,14 +13,14 @@ https://tryhackme.com/
 
 https://www.youtube.com/watch?v=FSjOrIHun-A
 
-## Advanced persistent threat (APT)
+# Advanced persistent threat (APT)
 _"An advanced persistent threat (APT) is a sophisticated, sustained cyberattack in which an intruder establishes an undetected presence in a network in order to steal sensitive data over a prolonged period of time"_.
 
-### Windows
-#### Disable or Remove Feature or Program
+## Disable or Remove Feature or Program
 https://attack.mitre.org/mitigations/M1042/
 
-##### Disable PowerShell WinRM
+### Command and Scripting Interpreter (T1059)
+#### PowerShell (001)
 
 * If you want to stop and disable the WinRM for security reasons, you can do so in the Services snap-in (type "services" in the start menu), or you can use PowerShell:
 
@@ -33,7 +33,10 @@ https://attack.mitre.org/mitigations/M1042/
   ```shell
   Test-WSMan localhost
   ``` 
-#### Enable Attack Surface Reduction (ASR)
+#### Visual Basic (005)
 
-* [Overview-attack-surface-reduction](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction?view=o365-worldwide)
-  * [Microsoft-defender-application-guard](https://learn.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-application-guard/install-md-app-guard)
+[Behavior Prevention on Endpoint - M1040](https://attack.mitre.org/mitigations/M1040/)
+
+* Enable Attack Surface Reduction (ASR)
+  * [Overview-attack-surface-reduction](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction?view=o365-worldwide)
+    * [Microsoft-defender-application-guard](https://learn.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-application-guard/install-md-app-guard)
