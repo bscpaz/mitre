@@ -40,3 +40,12 @@ https://attack.mitre.org/mitigations/M1042/
 * Enable Attack Surface Reduction (ASR)
   * [Overview-attack-surface-reduction](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/overview-attack-surface-reduction?view=o365-worldwide)
     * [Microsoft-defender-application-guard](https://learn.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-application-guard/install-md-app-guard)
+    
+### Remote Service Session Hijacking (T1563)
+#### Disable or Remove Feature or Program (M1042)
+* Open Control Panel.
+* Click on System and Security.
+* Under the "System" section, click the "Allow remote access" option.
+* Click the "Remote" tab.
+* Under the "Remote Assistance" section, clear the "Allow Remote Assistance connection to this computer" option.
+* Click the "Apply" button.
