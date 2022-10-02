@@ -49,3 +49,7 @@ https://attack.mitre.org/mitigations/M1042/
 * Click the "Remote" tab.
 * Under the "Remote Assistance" section, clear the "Allow Remote Assistance connection to this computer" option.
 * Click the "Apply" button.
+
+### Abuse Elevation Control Mechanism: Bypass User Account Control (T1548/002)
+* Type "UAC" on search bar;
+* Use the highest enforcement level for UAC
